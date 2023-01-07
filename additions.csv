@@ -1,0 +1,17 @@
+degree_of_fit_of_clothing;type_of_clothing;PG_min;PG_max;PShS_min;PShS_max;PShP_min;PShP_max;PT_min;PT_max;PB_min;PB_max;PDTS_min;PDTS_max;PSPR_min;PSPR_max;PShGor_min;PShGor_max
+very dense;dress;2;2,5;0,5;0,75;0;0;0,5;1;0;0,5;0,5;0,5;1,5;2,5;0,5;0,5
+very dense;jacket;2,5;3,5;0,75;1;0;0;1,5;2;0,5;1,5;0,5;0,7;2,5;3;0,5;1
+very dense;demi-season coat;3,5;4;1;1,2;0;0;2;3;2,5;3;1;1;2,5;3,5;1;1,5
+very dense;skirt_pants;NaN;NaN;NaN;NaN;NaN;NaN;0;0;0;0,5;NaN;NaN;NaN;NaN;NaN;NaN
+dense;dress;3;4;0,8;1,2;0;0,5;1;2;1;1,5;0,5;0,5;1,5;2,5;0,5;0,5
+dense;jacket;4;4;1,1;1,7;0;0,6;3;4;1,5;3;0,5;0,7;2,5;3;0,5;1
+dense;demi-season coat;5;6;1,25;1,5;0;0,7;4;5;3;4,5;1;1;2,5;3,5;1;1,5
+dense;skirt_pants;NaN;NaN;NaN;NaN;NaN;NaN;0,5;0,7;0,7;1;NaN;NaN;NaN;NaN;NaN;NaN
+average;dress;4;5;1,2;1,5;0,8;1;3;4;2;3;0,5;0,5;1,5;2,5;0,5;0,5
+average;jacket;6;7;1,8;2,1;1,2;1,4;5;7;3,5;5;0,5;0,7;2,5;3;0,5;1
+average;demi-season coat;7;8;2,1;2,4;1,4;1,6;6;8;5;7;1;1;2,5;3,5;1;1,5
+average;skirt_pants;NaN;NaN;NaN;NaN;NaN;NaN;1;1;1,5;2;NaN;NaN;NaN;NaN;NaN;NaN
+loose;dress;6;7;1,8;2,1;1,2;1,4;4;6;3;5;0,5;0,5;1,5;2,5;0,5;0,5
+loose;jacket;8;9;2,4;2,7;1,6;1,8;7;9;5;7;0,5;0,7;2,5;3;0,5;1
+loose;demi-season coat;9;11;2,7;3,3;1,8;2,2;8;10;7;9;1;1;2,5;3,5;1;1,5
+loose;skirt_pants;NaN;NaN;NaN;NaN;NaN;NaN;1;2;2;2,5;NaN;NaN;NaN;NaN;NaN;NaN

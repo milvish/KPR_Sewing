@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script type="module" src="https://d3js.org/d3.v7.min.js" charset="utf-8"></script>
+    <title>Skirt_drawing</title>
+    <style>
+        .axis path, axis line{
+            fill:none;
+            stroke: #333;
+        }
+        .axis .grid-line{
+            stroke: #000;
+            shape-rendering: crispEdges;
+            stroke-opacity: 0.2;
+        }
+        .axis text{
+            font: 10px Verdana;
+        }
+        .dot{
+            stroke: steelblue;
+            fill: lightblue;
+        }
+        .path2{
+            stroke: #000;
+        }
+    </style>
+</head>
+<body>
+<label for="size-select">Выберите размер:</label>
+<div>
+    <select name="size" id="size-select" onchange="choose_size(this.value)">
+        <option value="">--Please choose a size--</option>
+        <option value="Size_40">40</option>
+        <option value="Size_42">42</option>
+        <option value="Size_44">44</option>
+        <option value="Size_46">46</option>
+        <option value="Size_48">48</option>
+        <option value="Size_50">50</option>
+        <option value="Size_52">52</option>
+        <option value="Size_54">54</option>
+        <option value="Size_56">56</option>
+    </select>
+</div>
+<div>
+    Обхват талии
+    <output  id="id_OT" ></output>
+</div>
+<div>
+    Обхват бедер
+    <output  id="id_OB"></output>
+</div>
+<div>
+    Высота бедер
+    <output  id="id_VB"></output>
+</div>
+<div>
+    Длина изделия
+    <output  id="id_DI"></output>
+</div>
+
+<div>
+    <input type="button" id="start" value="Построить выкройку">
+</div>
+
+<script src="skirt_drawing.js"></script>
+<!--<script type="module" src = 'data_forge.js'></script>-->
+
+
+</body>
+</html>
