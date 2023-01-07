@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "parcel main.html --dist-dir docs --public-url ./"
+    "start": "parcel index.html --dist-dir docs --public-url ./"
   },
   "dependencies": {
     "csv-parse": "^5.3.2",
