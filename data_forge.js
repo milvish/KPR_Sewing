@@ -29,9 +29,9 @@ date_OB, date_VB, date_OT = measurements(n)
 console.log('OB = ',date_OB,', VB = ', date_VB,', OT =', date_OT)
 function choose_size(value){
 
-    document.getElementById('tag').innerHTML = value
-    document.getElementById('tag1').innerHTML = df1.getSeries(value).at('VB')
-    document.getElementById('tag2').innerHTML = df1.getSeries(value).at('OT')
+    document.getElementById('id_OT').innerHTML = df1.getSeries((value).at('OT'))
+    document.getElementById('id_OB').innerHTML = df1.getSeries(value).at('OB')
+    document.getElementById('id_VB').innerHTML = df1.getSeries(value).at('VB')
 
 }
 
