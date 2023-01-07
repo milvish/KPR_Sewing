@@ -15,11 +15,9 @@ console.log(df1.toString())
 //console.log(df1.at("OG"))
 console.log(df1.getSeries('Size_40').at('OB'))
 let date_OB = 0
-let date_DI = 0
 let date_VB = 0
 let date_OT = 0
 let n = 'Size_40'
-let m = 'OB'
 
 function measurements(n){
     date_OB = df1.getSeries(n).at('OB')
